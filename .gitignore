@@ -1,0 +1,52 @@
+# Dependencies, build output and caches
+node_modules/
+dist/
+.vite/
+coverage/
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+*.log
+
+# Local credentials and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated design deliveries, PDFs, screenshots and scratch work
+/output/
+/tmp/
+/scratch/
+/screenshot-*.png
+/screenshot-*.jpg
+/scripts/*preview*.png
+/scripts/*recording*.mp4
+
+# Original source material and intermediate extraction dumps
+/urun-gorselleri/
+/*.docx
+/.~lock.*
+/*.txt
+/parsed_raw_blocks.json
+
+# One-off investigation and capture helpers in the project root
+/*.cjs
+/inspect_*.py
+/audit_*.py
+/check_*.py
+/deep_*audit*.py
+/read_*.py
+/verify_prices.py
+
+# Archived former logo; deployed brand assets remain tracked
+/public/images/eski-logo-*
+
+# Unused copies with original filenames; normalized product images are tracked
+/public/images/products/* *
+/scripts/inspect_*.py
